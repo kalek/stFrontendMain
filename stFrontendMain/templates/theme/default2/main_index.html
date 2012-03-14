@@ -1,0 +1,9 @@
+<div class="portal-column" id="portal_main">
+    {slot name="homepage_container"}
+        {component name="stSlideBannerFrontend/show"}
+        {component name="stFrontendMain/mainText"} 
+        {component name="stNewsFrontend/index" parameters="params: MAIN"}
+        {component name="stProduct/treeMain"}
+        {component name="stProduct/productGroup" parameters="product_group: MAIN_PAGE"}
+    {/slot}
+</div>
